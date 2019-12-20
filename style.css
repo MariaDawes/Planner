@@ -1,97 +1,97 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1;
-  }
-  
-  textarea{
-    background: transparent;
-    border: none;
-    resize: none;
-    color: #000000;
-    border-left: 1px solid black;
-    padding: 10px;
-  }
-  
-  .jumbotron {
-    text-align: center;
-    /* background-color: transparent;  */
-    color: black;
-    border-radius: 0;
-    border-bottom: 10px solid black;
-    background-color: rgb(228, 245, 245);
-  }
-  
-  .description{
-    white-space: pre-wrap; 
-    height: 50px;
-  }
-  
-  .time-block{
-    text-align: center;
-    border-radius: 15px;
-  }
-  
-  .row {
-    white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid white;;
-  }
-  
-  .hour {
-    background-color: #71c1e6;
-    color: #000000;
-    border-top: 1px dashed #000000;
-    text-align: center;
-    font-weight: 80px;
-    font-size: 21px;
-    height: 48px;
-  }
-  
-  .p{
-    height: 80px;
-    width: 60px;
-  }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
 
-  .past {
-    background-color: #bbc0c0;
-    color: rgb(19, 20, 87);
-  }
-  
-  .present {
-    background-color: #f07c7cf3;
-    color: rgb(19, 20, 87);
-  }
-  
-  
-  .future {
-    background-color: rgb(210, 238, 237); 
-    color: rgb(19, 20, 87);
-  }
-  
-  
-  .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
-    height: 45px;
-    width: 40px;
-    font-size: small;
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
 
-  }
-  
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
-  }
-  
-  .des9 {    
-  }
-  
-  .des10 {    
-  }
-  
-  .des11 {    
-  }
+.jumbotron {
+  text-align: center;
+  /* background-color: transparent;  */
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+  background-color: rgb(228, 245, 245);
+}
+
+.description{
+  white-space: pre-wrap; 
+  height: 50px;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #71c1e6;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  text-align: center;
+  font-weight: 80px;
+  font-size: 21px;
+  height: 48px;
+}
+
+.p{
+  height: 80px;
+  width: 60px;
+}
+
+.past {
+  background-color: #bbc0c0;
+  color: rgb(19, 20, 87);
+}
+
+.present {
+  background-color: #f07c7cf3;
+  color: rgb(19, 20, 87);
+}
+
+
+.future {
+  background-color: rgb(210, 238, 237); 
+  color: rgb(19, 20, 87);
+}
+
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+  height: 45px;
+  width: 40px;
+  font-size: small;
+
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.des9 {    
+}
+
+.des10 {    
+}
+
+.des11 {    
+}
