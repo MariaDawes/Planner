@@ -80,7 +80,6 @@
         // in the planner to add the correct past, present and future colors.
 
         var timeofDay = (moment().format('h'));
-        console.log("time of day:", timeofDay);
 
         if (timeofDay == 1) {
             (timeofDay = 13);
@@ -101,23 +100,19 @@
         for (var i = 0; i < planner.length; i++) {
 
             var plannerRepo = planner[i];
-            console.log("plannerRepo.time", plannerRepo.time);
-            
+                        
             if (timeofDay == plannerRepo.time) {
                     $(".description");
                     $(".description").addClass("present");
-                    alert("present");
             }
                     else if (timeofDay < plannerRepo.time) {
                         $(".description");
                         $(".description").addClass("future");
-                        alert("future");
                     }
                         else if (timeofDay > plannerRepo.time) {
                             //add gray to the box;
                             $(".description");
-                            $(".description").addClass("past");
-                            alert("past");              
+                            $(".description").addClass("past");              
                         }
 
         }

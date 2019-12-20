@@ -15,10 +15,11 @@ body {
   
   .jumbotron {
     text-align: center;
-    background-color: transparent; 
+    /* background-color: transparent;  */
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
+    background-color: rgb(228, 245, 245);
   }
   
   .description{
@@ -53,19 +54,21 @@ body {
   }
 
   .past {
-    background-color: #cad1d1;
-    color: white;
+    background-color: #bbc0c0;
+    color: rgb(19, 20, 87);
   }
   
   .present {
     background-color: #f07c7cf3;
-    color: white;
+    color: rgb(19, 20, 87);
   }
   
+  
   .future {
-    background-color: rgb(218, 240, 239); 
-    color: white;
+    background-color: rgb(210, 238, 237); 
+    color: rgb(19, 20, 87);
   }
+  
   
   .saveBtn {
     border-left: 1px solid black;
@@ -84,7 +87,11 @@ body {
     transition: all .3s ease-in-out;
   }
   
-  .hr9 {
-    white-space: pre-wrap; 
-    height: 50px;
+  .des9 {    
+  }
+  
+  .des10 {    
+  }
+  
+  .des11 {    
   }
