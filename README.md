@@ -24,7 +24,6 @@ The software will run in any webpage.
 * Current day/time from api tested.
 * Intput task tested.
     
-
 ## Screenshots
 
 ![alt text](./screen1.png "Planner screen one")
